@@ -9,7 +9,7 @@ public class Ex1017 {
 
         System.out.print("Qual foi o tempo gasto de viagem (em horas)? ");
         tempogasto = in.nextInt();
-        System.out.print("Qual foi a velocidade média da viagem? (em KM/h)? ");
+        System.out.print("Qual foi a velocidade média da viagem (em KM/h)? ");
         velocidadem = in.nextInt();
 
         distanciap = (tempogasto * velocidadem);
