@@ -14,9 +14,9 @@ public class Ex1015 {
         x2 = in.nextFloat();
         y2 = in.nextFloat();
 
-        distancia = Math.sqrt((Math.pow(x2-x1, 2) + (Math.pow(y2 -y1, 2))));
+        distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-        System.out.printf("%.4f %n",distancia);
+        System.out.printf("%.4f%n", distancia);
 
     }    
 }

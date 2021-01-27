@@ -14,6 +14,6 @@ public class Ex1017 {
 
         distanciap = (tempogasto * velocidadem);
         litros = (distanciap/12);
-        System.out.printf("%.3f %n", litros);
+        System.out.printf("%.3f%n", litros);
     }    
 }
