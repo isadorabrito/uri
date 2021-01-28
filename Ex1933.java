@@ -11,7 +11,7 @@ public class Ex1933 {
         carta2 = in.nextInt();
 
         if (carta1 > carta2) {
-        System.out.println(carta1);
+            System.out.println(carta1);
         } else {
             System.out.println(carta2);
         }
