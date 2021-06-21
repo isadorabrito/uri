@@ -5,21 +5,23 @@ public class Ex1866 {
 
         Scanner in = new Scanner(System.in);
 
-        int c;
-        int n = 0;
-        int cont = 1;
+        int c = 1; // quantidade de casos de teste
+        int contador = 0;
+        int s = 0; // resultado da soma dos termos
 
-        System.out.print("Digite a quantidade de casos de teste(1<=N<=1000): ");
+
+        System.out.print("Número de casos: ");
         c = in.nextInt();
-        while (cont <= c) {
-            System.out.print("Digite o número: ");
-            n = in.nextInt();
-            cont++;
-            if (n % 2 == 0) {
-                System.out.println("0");
+
+        while (contador < c) {
+            System.out.print("Digite o resultado do " + (contador + 1) + " caso: ");
+            s = in.nextInt();
+            if (s % 2 == 0) {
+                System.out.println("Resultado da soma dos N termos: 0");
             } else {
-                System.out.println("1");
+                System.out.println("Resultado da soma dos N termos: 1");
             }
+            contador++;
         }
     }
 }
