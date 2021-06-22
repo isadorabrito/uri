@@ -1,19 +1,19 @@
 import java.util.Scanner;
+
 public class Ex1080 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
-        int n, posicao=0, maior=0;
+        int n, posicao = 0, maior = 0;
 
-        for (int i=0; i < 100; i++) {
-            n =  in.nextInt();
+        for (int i = 1; i <= 100; i++) {
+            n = in.nextInt();
             if (maior < n) {
                 maior = n;
-                posicao = i+1;
+                posicao = i;
             }
         }
-        System.out.println(maior);
-        System.out.println(posicao);
+        System.out.println("O maior numero é " + maior + " e está na " + posicao + "° posicao.");
     }
 }
